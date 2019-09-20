@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="style_sheet.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Note</title>
@@ -17,7 +18,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse inverse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -29,7 +30,7 @@
           <div class="dropdown-divider"></div>
           
         
-		
+			
           <a class="dropdown-item" href="#">Archive</a>
 		  <a class="dropdown-item" href="#">Trash</a>
         </div>
@@ -41,10 +42,18 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
+	
   </div>
 </nav>
 	<div class="container">
-		
+		<div id ="cet_mar" class="alert alert-light" role="alert">
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Title</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Title">
+				<label for="exampleFormControlTextarea1">Content</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>	
+		</div>
 	</div>
 
     <!-- Optional JavaScript -->
